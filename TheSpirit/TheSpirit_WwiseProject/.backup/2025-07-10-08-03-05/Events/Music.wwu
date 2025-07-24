@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0C9DF30-E957-47F6-8C20-085BF5783686}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Music" ID="{C0C9DF30-E957-47F6-8C20-085BF5783686}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Stop_All_Music" ID="{5E00685F-A672-4EA1-9EFF-B45658E09AC5}">
+					<ChildrenList>
+						<Action Name="" ID="{3DAD9CD9-796B-4BAA-AC01-10A84204CCB4}" ShortID="856640747">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{89962CF1-2944-45C4-9185-723E1DB46CF8}">
+					<ChildrenList>
+						<Action Name="" ID="{AE1B1F3C-56DF-41E4-BD2C-A1776FC07F72}" ShortID="16161676">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musics" ID="{32D40C95-CC77-47D2-B0BF-F794281D03AC}" WorkUnitID="{0033847E-42BE-47F8-A5E2-86A69E628089}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat" ID="{01BD824B-5B08-43AF-836F-1088DC7F22AF}">
+					<ChildrenList>
+						<Action Name="" ID="{6B60862B-370A-40ED-BD23-FD18C43B9148}" ShortID="611674164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{51832CAA-25BF-4081-B772-F35F7A885BAB}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SafeHaven" ID="{D77E4AD6-2794-4F6F-B148-C5733760E444}">
+					<ChildrenList>
+						<Action Name="" ID="{621F12EA-471E-4873-AF59-AF6941C71D89}" ShortID="868233347">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SafeHaven" ID="{FF68BB1F-E5D0-4B3B-A27D-0044AAF45BDF}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exploration1" ID="{0506C50E-2A26-4BF2-B1D7-35119DECCCD1}">
+					<ChildrenList>
+						<Action Name="" ID="{862435EA-94FC-4D68-9FCC-E600318A313D}" ShortID="273605100">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration1" ID="{26BD4A62-A8ED-40BE-B476-46BC02B2BA15}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exploration2" ID="{18F7E2ED-20E6-4C0F-B4E1-2EBD24276EF8}">
+					<ChildrenList>
+						<Action Name="" ID="{6A94B1AF-38D6-447B-A622-EEC038F819C3}" ShortID="391966779">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration2" ID="{3DB20467-424E-4431-926D-81CF69AD2A47}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exploration3" ID="{A6C282E0-B937-4E8C-AB39-B6B451EC3125}">
+					<ChildrenList>
+						<Action Name="" ID="{16C13138-2ED5-4383-8144-51B25A473204}" ShortID="684321661">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration3" ID="{9DD2615D-4BF9-44ED-B668-A97EFF3EED40}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

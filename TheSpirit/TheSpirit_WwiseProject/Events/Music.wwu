@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0C9DF30-E957-47F6-8C20-085BF5783686}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Music" ID="{C0C9DF30-E957-47F6-8C20-085BF5783686}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Stop_All_Music" ID="{5E00685F-A672-4EA1-9EFF-B45658E09AC5}">
+					<ChildrenList>
+						<Action Name="" ID="{3DAD9CD9-796B-4BAA-AC01-10A84204CCB4}" ShortID="856640747">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat" ID="{01BD824B-5B08-43AF-836F-1088DC7F22AF}">
+					<ChildrenList>
+						<Action Name="" ID="{6B60862B-370A-40ED-BD23-FD18C43B9148}" ShortID="611674164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2056F9B9-F13E-4A1A-98A0-53E454C59F88}" ShortID="1044054959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy" ID="{F3DBFC41-FAA6-4169-8D2D-FFDFEE3D992F}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AFF8686-D131-4F1E-87A3-87762FD60FD5}" ShortID="856198814">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_1" ID="{5EEFD9FB-BC3C-4BBC-A1F8-7B636CE4AF20}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C2BBACB-EEB2-430C-82A3-501138209873}" ShortID="748097442">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_2" ID="{38DA3BB7-4FC4-4AAD-A575-A93F55CBA6C4}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7127E8EA-C893-4265-9285-BA281C93ED53}" ShortID="523201717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8E5EA83-EC28-4F73-866C-092CE70F51A5}" ShortID="626437053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-2" ID="{1C6E083C-9D83-4B7F-B59C-A301CE012C7F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SafeHaven" ID="{D77E4AD6-2794-4F6F-B148-C5733760E444}">
+					<ChildrenList>
+						<Action Name="" ID="{621F12EA-471E-4873-AF59-AF6941C71D89}" ShortID="868233347">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Safe_Haven" ID="{2E5339A9-CE62-4AF7-84EC-0FDDE2F9A1BD}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D05E439-2441-41C5-8DCD-3924779152B3}" ShortID="768024547">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Recovery" ID="{76D27B0F-C57A-416F-B54A-FA9A5D8340A4}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C12CB43A-4CC1-4320-8042-2A9AAD2F63B5}" ShortID="185728101">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_1" ID="{5EEFD9FB-BC3C-4BBC-A1F8-7B636CE4AF20}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47B07E66-9FF9-432F-B79C-337ADE22C3C4}" ShortID="353419217">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_2" ID="{38DA3BB7-4FC4-4AAD-A575-A93F55CBA6C4}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0DDB6621-AC6C-44B5-85AB-1EE8CB377CA0}" ShortID="127507875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-2" ID="{1C6E083C-9D83-4B7F-B59C-A301CE012C7F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8CC3D4D0-A712-47BC-A564-6A2D15D2B5E3}" ShortID="73713715">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GamePlay" ID="{0506C50E-2A26-4BF2-B1D7-35119DECCCD1}">
+					<ChildrenList>
+						<Action Name="" ID="{39A40AF0-A335-43F2-8F30-5A289C9FF7A7}" ShortID="904099702">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musics" ID="{32D40C95-CC77-47D2-B0BF-F794281D03AC}" WorkUnitID="{0033847E-42BE-47F8-A5E2-86A69E628089}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{862435EA-94FC-4D68-9FCC-E600318A313D}" ShortID="273605100">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8BE6E6C7-F0C8-4F55-95EE-14D7DF67BE41}" ShortID="672457530">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musics" ID="{32D40C95-CC77-47D2-B0BF-F794281D03AC}" WorkUnitID="{0033847E-42BE-47F8-A5E2-86A69E628089}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DBE5E23-9BDB-43EB-B08C-8C728EE6D9A0}" ShortID="1008043611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_1" ID="{5EEFD9FB-BC3C-4BBC-A1F8-7B636CE4AF20}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{258B9791-D153-4F82-8DF8-2234A3E16663}" ShortID="44074200">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_2" ID="{38DA3BB7-4FC4-4AAD-A575-A93F55CBA6C4}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DF6212E0-A1D1-4016-9801-4154C60CA0CC}" ShortID="388519161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AFA0B44-BB16-4D07-A63D-F4546B0D1E9E}" ShortID="1031211008">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alive" ID="{9F128981-DC9C-4163-BA19-8662E8367797}" WorkUnitID="{2F885EBC-DC90-46F3-B51B-8FE757CD42BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exploration" ID="{FC98BE70-A8B8-4CCC-A05E-1AE224D5A416}">
+					<ChildrenList>
+						<Action Name="" ID="{FD3FF03D-A929-4955-9126-3F5F9BBBD66C}" ShortID="220177140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A2468E37-2FCB-4004-ABE0-5E9CABEE6130}" ShortID="690144961">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E304CD4E-E11B-4506-AA1F-06DB60997800}" ShortID="518758941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-2" ID="{1C6E083C-9D83-4B7F-B59C-A301CE012C7F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D0F5972D-F369-43DB-91D5-737C00EA548F}" ShortID="253167463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_1" ID="{5EEFD9FB-BC3C-4BBC-A1F8-7B636CE4AF20}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BA07FF49-072D-4248-8EEC-57CADE76D894}" ShortID="937044021">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_2" ID="{38DA3BB7-4FC4-4AAD-A575-A93F55CBA6C4}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{03340092-754A-4460-B7B7-A895D9417643}" ShortID="656742133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exploration_Mountain" ID="{FA35D670-0339-463A-839D-B8CA0BF9B9F5}">
+					<ChildrenList>
+						<Action Name="" ID="{4781F718-8113-4B66-947F-8B9B91531BDD}" ShortID="229121370">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FA0CB33F-8870-4204-9301-5A7516A64CB5}" ShortID="433807428">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

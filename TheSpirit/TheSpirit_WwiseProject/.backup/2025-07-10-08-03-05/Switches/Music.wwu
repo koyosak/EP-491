@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Music" ID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Musics" ID="{4C32A2C8-5AC2-4139-8D6A-761AC5C26886}">
+					<ChildrenList>
+						<Switch Name="Exploration1" ID="{26BD4A62-A8ED-40BE-B476-46BC02B2BA15}"/>
+						<Switch Name="Exploration2" ID="{3DB20467-424E-4431-926D-81CF69AD2A47}"/>
+						<Switch Name="Exploration3" ID="{9DD2615D-4BF9-44ED-B668-A97EFF3EED40}"/>
+						<Switch Name="SafeHaven" ID="{FF68BB1F-E5D0-4B3B-A27D-0044AAF45BDF}"/>
+						<Switch Name="Combat" ID="{51832CAA-25BF-4081-B772-F35F7A885BAB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

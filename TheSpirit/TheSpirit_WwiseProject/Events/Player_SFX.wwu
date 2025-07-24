@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A65C8AE0-6724-4CE5-96B9-D838B1D23A77}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Player_SFX" ID="{A65C8AE0-6724-4CE5-96B9-D838B1D23A77}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_FS" ID="{D12748C0-394E-466C-8254-7C9C712E5AE3}">
+					<ChildrenList>
+						<Action Name="" ID="{9A038661-24AB-4948-8308-15C80B4B2832}" ShortID="399427242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B8C0EB68-AB42-40B5-96D6-7BA8E5B7286D}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sprinting" ID="{A0254E38-3885-413B-B5D1-0A266628486A}">
+					<ChildrenList>
+						<Action Name="" ID="{DC770801-7D83-4C2D-862C-14D6CCE67F73}" ShortID="622644745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sprinting" ID="{EB85E78F-AE57-45A1-9677-8214CCA090D6}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Punch" ID="{F5CBA602-9B22-41FB-B268-DFB4CDE0EF5D}">
+					<ChildrenList>
+						<Action Name="" ID="{656DF20D-CBA6-488A-87B9-4BBD6D22633D}" ShortID="495489089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Punch" ID="{94355988-4E3A-4F19-A45D-8DC12E267A0C}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

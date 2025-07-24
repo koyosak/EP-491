@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FCEB9D1-D63D-4857-90D8-A9D4510C0313}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Enemy_Damage" ID="{1FCEB9D1-D63D-4857-90D8-A9D4510C0313}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_E_Damage" ID="{5B958525-1DD1-4C0D-9A58-9D5A451B86B5}">
+					<ChildrenList>
+						<Action Name="" ID="{9B71BD21-BE40-419B-9AFC-292548974178}" ShortID="909502843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Damage" ID="{DDDB8CEE-2867-4021-A6F7-A7FE1B9886A1}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

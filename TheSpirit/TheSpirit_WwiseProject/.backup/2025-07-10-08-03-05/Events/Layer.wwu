@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45F7536B-5D0E-4D2D-9886-48334FE04508}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Layer" ID="{45F7536B-5D0E-4D2D-9886-48334FE04508}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play" ID="{2283F7F2-5998-46D1-A1C1-E16DA0CCAB9F}">
+					<ChildrenList>
+						<Action Name="" ID="{F1E9CD5F-3227-474E-BC82-B544C37C96C4}" ShortID="1036334830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Layer" ID="{653C3A8E-47CA-4030-B04E-BB1D593A1CC9}" WorkUnitID="{67C913FF-F1A4-45A0-B247-E2F00ED1A32E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{D1B78EDC-56A2-47E5-AC82-B232EF4C8E95}">
+					<ChildrenList>
+						<Action Name="" ID="{305281E1-4A3E-40B4-91D9-8E8336D7A098}" ShortID="358733262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_1" ID="{DD3E894E-AC65-4C31-8264-B1E87CAE71AA}">
+					<ChildrenList>
+						<Action Name="" ID="{A3B7C03D-EEC4-4C86-9F3D-D9F0E58F891B}" ShortID="508912545">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_2" ID="{65C1DFD1-9D0D-419C-95F2-16BCC47D655D}">
+					<ChildrenList>
+						<Action Name="" ID="{4BF39354-9B93-45B5-AADC-5A7DAA59568A}" ShortID="142220033">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_3" ID="{9BA63F84-FC7F-4CA2-8027-C0F03258D971}">
+					<ChildrenList>
+						<Action Name="" ID="{FA1E23B6-C07A-49BC-BED9-07207E5DB484}" ShortID="824519458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

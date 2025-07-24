@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{83064B71-F431-4A63-8817-2C7D2F6E512B}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Music" ID="{83064B71-F431-4A63-8817-2C7D2F6E512B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Exploration" ID="{B01B6C87-33A9-4174-A46E-A6553E2AB6D0}">
+					<ChildrenList>
+						<State Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
+						<State Name="Level1" ID="{924A2E4C-B38D-4569-BE2A-A63EA151D251}"/>
+						<State Name="Level2" ID="{4E282862-04E4-4DBF-9877-2BFFB6BCBE2F}"/>
+						<State Name="Level3" ID="{5212B27F-5DE6-45F7-8672-A3C353ACE13F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_State" ID="{E67B1078-DE8B-4BC6-A0C0-775D92120BBC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{66B17230-D2A8-4EFA-B583-455D5AF12732}"/>
+						<State Name="Enemy" ID="{F3DBFC41-FAA6-4169-8D2D-FFDFEE3D992F}"/>
+						<State Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}"/>
+						<State Name="Recovery" ID="{76D27B0F-C57A-416F-B54A-FA9A5D8340A4}"/>
+						<State Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

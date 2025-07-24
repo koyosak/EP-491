@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{931A6A6A-2D36-4617-921E-583CFD6CE019}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Punch" ID="{931A6A6A-2D36-4617-921E-583CFD6CE019}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Punch" ID="{F5CBA602-9B22-41FB-B268-DFB4CDE0EF5D}">
+					<ChildrenList>
+						<Action Name="" ID="{656DF20D-CBA6-488A-87B9-4BBD6D22633D}" ShortID="495489089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Punch" ID="{94355988-4E3A-4F19-A45D-8DC12E267A0C}" WorkUnitID="{BB1E5209-3044-4058-BE8D-1776A7B30786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

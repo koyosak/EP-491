@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B725F72-946F-45B8-BBF3-39CAF626FBD5}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6B725F72-946F-45B8-BBF3-39CAF626FBD5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="RTPC" ID="{6B2D47E4-C467-477E-977A-3DB53EC02E00}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play" ID="{2283F7F2-5998-46D1-A1C1-E16DA0CCAB9F}" WorkUnitID="{45F7536B-5D0E-4D2D-9886-48334FE04508}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTPC_1" ID="{DD3E894E-AC65-4C31-8264-B1E87CAE71AA}" WorkUnitID="{45F7536B-5D0E-4D2D-9886-48334FE04508}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_All" ID="{D1B78EDC-56A2-47E5-AC82-B232EF4C8E95}" WorkUnitID="{45F7536B-5D0E-4D2D-9886-48334FE04508}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTPC_2" ID="{65C1DFD1-9D0D-419C-95F2-16BCC47D655D}" WorkUnitID="{45F7536B-5D0E-4D2D-9886-48334FE04508}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FS" ID="{D12748C0-394E-466C-8254-7C9C712E5AE3}" WorkUnitID="{A65C8AE0-6724-4CE5-96B9-D838B1D23A77}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTPC_3" ID="{9BA63F84-FC7F-4CA2-8027-C0F03258D971}" WorkUnitID="{45F7536B-5D0E-4D2D-9886-48334FE04508}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Combat" ID="{51832CAA-25BF-4081-B772-F35F7A885BAB}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{49C5DB45-7EEE-4805-A899-2266C2025DF0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{89962CF1-2944-45C4-9185-723E1DB46CF8}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Exploration1" ID="{0506C50E-2A26-4BF2-B1D7-35119DECCCD1}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Punch" ID="{F5CBA602-9B22-41FB-B268-DFB4CDE0EF5D}" WorkUnitID="{931A6A6A-2D36-4617-921E-583CFD6CE019}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_All_Music" ID="{5E00685F-A672-4EA1-9EFF-B45658E09AC5}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Exploration2" ID="{18F7E2ED-20E6-4C0F-B4E1-2EBD24276EF8}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_E_Damage" ID="{5B958525-1DD1-4C0D-9A58-9D5A451B86B5}" WorkUnitID="{1FCEB9D1-D63D-4857-90D8-A9D4510C0313}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat" ID="{01BD824B-5B08-43AF-836F-1088DC7F22AF}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Exploration3" ID="{A6C282E0-B937-4E8C-AB39-B6B451EC3125}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FS" ID="{D12748C0-394E-466C-8254-7C9C712E5AE3}" WorkUnitID="{A65C8AE0-6724-4CE5-96B9-D838B1D23A77}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SafeHaven" ID="{D77E4AD6-2794-4F6F-B148-C5733760E444}" WorkUnitID="{C0C9DF30-E957-47F6-8C20-085BF5783686}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sprinting" ID="{A0254E38-3885-413B-B5D1-0A266628486A}" WorkUnitID="{A65C8AE0-6724-4CE5-96B9-D838B1D23A77}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Combat" ID="{51832CAA-25BF-4081-B772-F35F7A885BAB}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

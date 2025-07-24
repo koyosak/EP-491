@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	104284692	RTPC_1			\Layer\RTPC_1	
+	104284694	RTPC_3			\Layer\RTPC_3	
+	104284695	RTPC_2			\Layer\RTPC_2	
+	452547817	Stop_All			\Layer\Stop_All	
+	1256202815	Play			\Layer\Play	
+	3168847875	Play_01			\Footstep\Play_01	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3298531235	Layers			\RTPC\Layers	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	116236399	Footstep_2	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_2_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_2		125020
+	120494568	First layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\First layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\First layer		6800308
+	255373430	Footstep_3	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_3_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_3		125020
+	329788264	Footstep_6	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_6_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_6		112208
+	399919869	Third layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Third layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Third layer		6800240
+	401338812	Second layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\ Second layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Second layer		6800056
+	530170165	Footstep_7	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_7_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_7		112208
+	585325833	Footstep_5	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_5_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_5		109004
+	656607690	Footstep_8	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_8_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_8		109004
+	780121973	Footstep_4	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_4_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_4		125020
+	837549831	Footstep_1	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_1_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_1		125020
+	901437010	Fourth layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Fourth layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Fourth layer		6800156
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="RTPC" ID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

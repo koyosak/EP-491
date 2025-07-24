@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Music" ID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Health_Status" ID="{82E53B1C-9706-4213-89AD-6969BE9433E4}">
+					<ChildrenList>
+						<Switch Name="Healthy" ID="{786ECE22-3D76-4202-A845-5A2567ADED18}"/>
+						<Switch Name="Badly_Injured" ID="{8AC9801C-DE22-4AE6-9DF6-D244ED0DE263}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Gameplay_Swtich" ID="{076851C3-FA76-44FF-BE9C-EDADA3C3D7A6}">
+					<ChildrenList>
+						<Switch Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
+						<Switch Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"/>
+						<Switch Name="Safe_Haven" ID="{2E5339A9-CE62-4AF7-84EC-0FDDE2F9A1BD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

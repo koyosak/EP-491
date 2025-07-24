@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C94C1793-75C3-4332-A10F-32E7B5DC370E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Enemy" ID="{C94C1793-75C3-4332-A10F-32E7B5DC370E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<RandomSequenceContainer Name="Damage" ID="{DDDB8CEE-2867-4021-A6F7-A7FE1B9886A1}" ShortID="319627052">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="EnemyDamage" ID="{37DB9AEE-CF22-45AE-AB12-B06EBD60EAFC}" ShortID="722246753">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyDamage" ID="{C863402C-64FD-4502-BEAA-7E4C42A44A7E}">
+									<Language>SFX</Language>
+									<AudioFile>EnemyDamage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="680478376"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyDamage" ID="{C863402C-64FD-4502-BEAA-7E4C42A44A7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EnemyDamage_3" ID="{5AB296B0-7881-45B9-BF97-F566067368FF}" ShortID="335629866">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyDamage_3" ID="{7DAAB899-3A84-48F2-B8AB-A70B25DEE767}">
+									<Language>SFX</Language>
+									<AudioFile>EnemyDamage_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="989715700"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyDamage_3" ID="{7DAAB899-3A84-48F2-B8AB-A70B25DEE767}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EnemyDamage_2" ID="{74B70DA2-632C-479A-92AA-F13091D09188}" ShortID="475994581">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyDamage_2" ID="{EF8ABEBF-5D9D-4D02-9F06-CEB646BE69E9}">
+									<Language>SFX</Language>
+									<AudioFile>EnemyDamage_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="884020658"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyDamage_2" ID="{EF8ABEBF-5D9D-4D02-9F06-CEB646BE69E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

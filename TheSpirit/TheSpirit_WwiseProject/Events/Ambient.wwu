@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C867F714-B335-4B94-8E60-AFC6F1ED6F13}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{C867F714-B335-4B94-8E60-AFC6F1ED6F13}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Amb_2_On" ID="{171844D0-137C-4674-B16E-946859B9D2BE}">
+					<ChildrenList>
+						<Action Name="" ID="{6B1BD163-74A8-43B6-9FDC-73AA674C63E6}" ShortID="393994651">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb" ID="{98B52E88-E1C6-4B35-84D2-A13231D69F72}">
+					<ChildrenList>
+						<Action Name="" ID="{33A19B3B-05A4-4AC3-9981-6A7AC9CC6788}" ShortID="829277308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{630BBC69-D453-4C5D-8B76-75CA390ACEA2}" ShortID="111449372">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_1" ID="{5EEFD9FB-BC3C-4BBC-A1F8-7B636CE4AF20}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{381EB571-D34A-4269-BECA-3F267B61A75F}" ShortID="260851837">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Ambient_2" ID="{38DA3BB7-4FC4-4AAD-A575-A93F55CBA6C4}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0EEE3B10-05A4-4329-B1AC-65B4D9858707}" ShortID="137070459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_2_Off" ID="{21AE533D-8417-41E6-9229-2A4CFE89D484}">
+					<ChildrenList>
+						<Action Name="" ID="{6CFC8E6F-863B-4E5D-8AA7-5FFAC65C9AAF}" ShortID="236466283">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}" WorkUnitID="{73486464-CC5C-4FCD-AC6B-8C12C9D6FAE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
