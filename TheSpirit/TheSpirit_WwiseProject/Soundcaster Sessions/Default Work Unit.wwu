@@ -43,11 +43,11 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
 						<CurrentStateRef Name="Alive" ID="{9F128981-DC9C-4163-BA19-8662E8367797}"/>
-						<CurrentStateRef Name="Recovery" ID="{76D27B0F-C57A-416F-B54A-FA9A5D8340A4}"/>
+						<CurrentStateRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Healthy" ID="{786ECE22-3D76-4202-A845-5A2567ADED18}"/>
-						<CurrentSwitchRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
+						<CurrentSwitchRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{49C5DB45-7EEE-4805-A899-2266C2025DF0}">
@@ -134,11 +134,11 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
 						<CurrentStateRef Name="Alive" ID="{9F128981-DC9C-4163-BA19-8662E8367797}"/>
-						<CurrentStateRef Name="Recovery" ID="{76D27B0F-C57A-416F-B54A-FA9A5D8340A4}"/>
+						<CurrentStateRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Healthy" ID="{786ECE22-3D76-4202-A845-5A2567ADED18}"/>
-						<CurrentSwitchRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
+						<CurrentSwitchRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Exploration" ID="{8C44B597-1587-4290-AF90-11BA19AD7E2A}">
@@ -152,6 +152,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Footsteps" ID="{B8C0EB68-AB42-40B5-96D6-7BA8E5B7286D}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Forest_Ambient-1" ID="{0AB2593E-CEF1-4FDD-8936-4198DFF4269F}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -159,11 +163,15 @@
 							<ObjectRef Name="Exploration_2" ID="{5F2A82F6-3479-478A-8FD3-D0D5D7AE9428}" WorkUnitID="{0033847E-42BE-47F8-A5E2-86A69E628089}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Sprinting" ID="{EB85E78F-AE57-45A1-9677-8214CCA090D6}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+							<Position X="1" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
+						<CurrentSwitchRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Combat" ID="{F474C770-1EB2-4C86-A508-D1E04BD89EAE}">
@@ -239,6 +247,17 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
 					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SFX" ID="{3283B3C2-F61B-4535-8961-EE8175DB5F3B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{B8C0EB68-AB42-40B5-96D6-7BA8E5B7286D}" WorkUnitID="{77A72920-7F0C-438C-B101-FCE2A8A881E6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -235,6 +235,13 @@
 				<Folder Name="Player" ID="{080C8E56-C1D9-45E8-B171-00623C929DCA}" ShortID="457102318">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Footsteps" ID="{B8C0EB68-AB42-40B5-96D6-7BA8E5B7286D}" ShortID="411058065">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
@@ -639,6 +646,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Sprinting" ID="{EB85E78F-AE57-45A1-9677-8214CCA090D6}" ShortID="1001951338">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>

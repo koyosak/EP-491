@@ -147082,7 +147082,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.45
-    functionName: 
+    functionName: PlayPunch
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

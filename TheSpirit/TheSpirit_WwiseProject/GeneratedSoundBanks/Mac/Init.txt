@@ -1,3 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+	2582085496	Exploration			\Music\Exploration	
+	3826569560	Music_State			\Music\Music_State	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player_Health			
+	748895195	None	Player_Health			
+	2791675679	Defeated	Player_Health			
+	748895195	None	Exploration			
+	2678230380	Level3	Exploration			
+	2678230381	Level2	Exploration			
+	2678230382	Level1	Exploration			
+	215593132	Recovery	Music_State			
+	748895195	None	Music_State			
+	2299321487	Enemy	Music_State			
+	2582085496	Exploration	Music_State			
+	2662897286	Exploration_Mountain	Music_State			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Play
   id: 1256202815
   guid: 2283F7F2-5998-46D1-A1C1-E16DA0CCAB9F
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

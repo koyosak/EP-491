@@ -16690,8 +16690,7 @@ AnimationClip:
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 110800002, guid: 37c6cfe59f56e8a4799011397a870a8b,
-      type: 3}
+    m_AdditiveReferencePoseClip: {fileID: 110800002, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
     m_StopTime: 0.6666667

@@ -1,25 +1,115 @@
 Event	ID	Name			Wwise Object Path	Notes
+	64473902	Play_Sprinting			\Player_SFX\Play_Sprinting	
+	89505537	GamePlay			\Music\GamePlay	
 	104284692	RTPC_1			\Layer\RTPC_1	
 	104284694	RTPC_3			\Layer\RTPC_3	
 	104284695	RTPC_2			\Layer\RTPC_2	
+	386838650	SafeHaven			\Music\SafeHaven	
 	452547817	Stop_All			\Layer\Stop_All	
 	1256202815	Play			\Layer\Play	
-	3168847875	Play_01			\Footstep\Play_01	
+	1684793444	Amb_2_On			\Ambient\Amb_2_On	
+	1786029141	Play_E_Damage			\Enemy_Damage\Play_E_Damage	
+	2178867810	Amb_2_Off			\Ambient\Amb_2_Off	
+	2262856515	Play_FS			\Player_SFX\Play_FS	
+	2582085496	Exploration			\Music\Exploration	
+	2595883869	Stop_All_Music			\Music\Stop_All_Music	
+	2662897286	Exploration_Mountain			\Music\Exploration_Mountain	
+	2764240573	Combat			\Music\Combat	
+	2959533290	Play_Amb			\Ambient\Play_Amb	
+	3946911806	Play_Punch			\Player_SFX\Play_Punch	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4048371810	Gameplay_Swtich			\Music\Gameplay_Swtich	
+
+Switch	ID	Name	Switch Group			Notes
+	579523862	Explore	Gameplay_Swtich			
+	2003361487	Safe_Haven	Gameplay_Swtich			
+	2764240573	Combat	Gameplay_Swtich			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+	3826569560	Music_State			\Music\Music_State	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player_Health			
+	748895195	None	Player_Health			
+	2791675679	Defeated	Player_Health			
+	215593132	Recovery	Music_State			
+	748895195	None	Music_State			
+	2299321487	Enemy	Music_State			
+	2582085496	Exploration	Music_State			
+	2662897286	Exploration_Mountain	Music_State			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1597501156	Drone_Amb			\RTPC\Drone_Amb	
 	3298531235	Layers			\RTPC\Layers	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	116236399	Footstep_2	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_2_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_2		125020
-	120494568	First layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\First layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\First layer		6800308
-	255373430	Footstep_3	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_3_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_3		125020
-	329788264	Footstep_6	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_6_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_6		112208
-	399919869	Third layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Third layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Third layer		6800240
-	401338812	Second layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\ Second layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Second layer		6800056
-	530170165	Footstep_7	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_7_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_7		112208
-	585325833	Footstep_5	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_5_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_5		109004
-	656607690	Footstep_8	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_8_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_8		109004
-	780121973	Footstep_4	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_4_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_4		125020
-	837549831	Footstep_1	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Footstep_1_818F3B66.wem		\Actor-Mixer Hierarchy\Footstep\Footsteps\Footstep_1		125020
-	901437010	Fourth layer	Y:\Desktop\Spirit\The Spirit\The Spirit_WwiseProject\.cache\Mac\SFX\Fourth layer_FBC78EF0.wem		\Interactive Music Hierarchy\Exploring_Music\Music_Layer\Exploration\Fourth layer		6800156
+	759830	PlayerAttack_3	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\3A\{3A99AE58-DEB5-70E3-3C38-6965B6019977}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_3		57996
+	7030173	Exploration_2_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\C6\{C6B4D163-C965-02C8-C07C-D4BE9060A5A3}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_2\Exploration_2_1		9930848
+	22405179	Combat_B_Bass	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\8D\{8D981F38-83D6-D221-E280-6739DC6F9DC7}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_5\Combat_B_Bass		4162720
+	29791518	Exploration_2_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\B6\{B687D191-77A3-B145-FD3A-AA84124E5A48}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_2\Exploration_2_1		9930848
+	36953897	Sprint _3	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\7C\{7C21C879-2336-3344-47BB-CE25CC74B02C}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _3		96140
+	55254985	Drone_Ambient_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\25\{25B1A4ED-CF7B-FA89-E2BC-AC421E5026F2}.wem		\Actor-Mixer Hierarchy\SFX\Ambients\Drone_Ambient_2		5757788
+	84555597	Exploration_Bass	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\19\{1927EC0C-85C4-FDE2-F1BA-283EDBE56361}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_Bass		9930848
+	116236399	Footstep_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\7D\{7D86EBD7-13F0-F729-C0FE-CF2D2E3ED25D}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_2		125068
+	120494568	First layer	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\74\{742003B6-FC46-DD7C-5530-01CD8BA10380}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration_Mountain\Exploration_Mountain\First layer		6800308
+	135968664	Exploration_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\6A\{6AD807AF-46D6-4FA0-EE4B-56400B53520A}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_1		10455136
+	142373127	Sprint _6	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\29\{292D9799-EF77-E98E-524F-F54A6987B7E1}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _6		86296
+	154025374	Exploration_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\EC\{ECB7E91B-8980-1E81-D8C6-6DE18FE59DBA}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_1		10455136
+	167981765	Exploration_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\CB\{CB18ECB0-E5AF-1544-8FD8-679E89B0A02D}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_1		10717280
+	169699585	Sprint _4	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\C0\{C0D68997-EBFD-610C-6469-ACA3E156EADC}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _4		96140
+	170689982	Combat_A_Melody_4	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\4F\{4FA467CC-EA5F-F78E-2E11-B6EEB1DF1772}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_3\Combat_A_Melody_4		2065568
+	173658624	PlayerAttack_6	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\C3\{C3B0B863-CB45-8D82-508C-49332B3F3B8D}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_6		74860
+	236412955	Drone_Ambient_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\95\{95BA215E-81D4-E83B-A555-F203875D3AED}.wem		\Actor-Mixer Hierarchy\SFX\Ambients\Drone_Ambient_1		5757848
+	240209031	Combat_A_Melody_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\6D\{6DFB7AE8-C32B-EAE2-BF26-F1918076C81F}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_2\Combat_A_Melody_2		2065568
+	255373430	Footstep_3	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\CD\{CD5B4E61-5F2B-4A81-73E1-30E9A742EAD1}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_3		125068
+	319439123	Exploration_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\EB\{EBFE390A-4880-EB54-89F7-DE9F512C4B3E}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_1		10455136
+	329788264	Footstep_6	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\52\{520A2202-C901-175D-0374-7EB559B560FA}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_6		112256
+	331896607	Combat_B_Embellishment	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\6E\{6EB3B9E2-2036-9432-7717-A33BEF14852D}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_3\Combat_B_Embellishment		2327712
+	393010706	Combat_B_Melody_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\6E\{6E9C36CB-A8EC-AF27-6E00-9E1560D07630}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_2\Combat_B_Melody_2		2065568
+	393919423	Forest_Ambient-1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\58\{582D17AF-E39D-124B-69C1-4B137F84EED3}.wem		\Actor-Mixer Hierarchy\SFX\Ambients\Forest_Ambient-1		5760096
+	395664244	Transition_to_Safe_Haven	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\06\{06CF40AF-DFDB-F21F-DF3F-9E200C7153EA}.wem		\Interactive Music Hierarchy\Music_System\Musics\SafeHaven\Transition_to_Safe_Haven\Transition_to_Safe_Haven		2328672
+	399919869	Third layer	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\09\{09DFBC65-E313-6C5C-1576-B60537649E89}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration_Mountain\Exploration_Mountain\Third layer		6800240
+	412784327	Transition_To_Combat_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\A2\{A27D9168-7329-87EF-8A1C-AC7086E8D504}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Transition_To_Combat\Transition_To_Combat_2		5473440
+	447724718	Combat_B_Embellishment	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\20\{20365633-FD62-E8E2-8B40-61C4F05C48FB}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_4\Combat_B_Embellishment		2327776
+	449121216	Sprint _2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\F0\{F0909114-2DB1-AD1D-39A2-E2FD9CB79234}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _2		96140
+	472714554	Second Layer	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\07\{0770056E-3F12-0ADB-43EB-0B288E349643}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration_Mountain\Exploration_Mountain\Second Layer		7997600
+	479295695	Combat_A_Embellishment_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\0F\{0F6AE093-E30B-362C-0CA1-50B29F0E3C6A}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_4\Combat_A_Embellishment_1		2065568
+	499609678	Combat_B_Melody_3	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\81\{816BA3B9-4DE1-31A6-936F-7A42BC68526F}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_3\Combat_B_Melody_3		1803488
+	506412168	PlayerAttack_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\96\{9629660F-4808-1F8B-BEBD-A5B2D4162998}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_2		71876
+	511540116	PlayerAttack_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\97\{9710BC8C-2DAC-4E9A-89AA-80B982585017}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_1		71876
+	514892195	Combat_A_Melody_4_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\E6\{E63B908D-2817-E301-3CA3-4151122AB2ED}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_3\Combat_A_Melody_4_2		2065568
+	519388206	Exploration_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\2D\{2DB9F35D-8066-E017-914B-DE72D76FD0C1}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_1\Exploration_1		9930848
+	526835480	Exploration_2_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\A1\{A1D9615A-5AB1-79D0-C2AA-3212C36E303C}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_2\Exploration_2_1		9930848
+	530170165	Footstep_7	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\1E\{1E69425E-7BAB-477A-7A52-16F3423B952C}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_7		112256
+	577244643	Combat_A_Melody_5	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\3D\{3DEAFBBF-254A-F6D0-21F0-B4357BC72EC4}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_4\Combat_A_Melody_5		1803424
+	585325833	Footstep_5	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\B1\{B1C2CA24-0EA1-0A2A-6F4B-F7A187ED26FC}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_5		109052
+	592581534	Combat_A_Melody_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\3F\{3FEE5077-1799-0EF1-E3DE-28C2F161415F}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_1\Combat_A_Melody_1		2065568
+	595321598	Combat_A_Melody_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\FF\{FFCC96BB-B907-BDD3-1F8F-65C139797178}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_1\Combat_A_Melody_1		2065568
+	648021822	Safe_Haven	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\0A\{0AE21EBF-F5DF-7F88-7759-728BF2D8C1BC}.wem		\Interactive Music Hierarchy\Music_System\Musics\SafeHaven\Safe_Haven\Safe_Haven		35620960
+	656607690	Footstep_8	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\B9\{B9A62143-B5F4-1E89-8109-2F8383D6333E}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_8		109004
+	666884531	Sprint _5	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\85\{85222A7D-1966-9A18-175A-78480392E000}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _5		83832
+	680478376	EnemyDamage	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\DE\{DE8632AB-2B95-1256-5B96-B5ECAFE928DF}.wem		\Actor-Mixer Hierarchy\SFX\Enemy\Damage\EnemyDamage		147220
+	697119502	Forest_Ambient-2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\0D\{0D1A1BB2-206D-8945-C489-4FDAFAEC4ED8}.wem		\Actor-Mixer Hierarchy\SFX\Ambients\Forest_Ambient-2		5832268
+	712380975	Combat_A_Chords	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\0C\{0C8B5B97-3E0B-93BC-688B-59E82C42345F}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_2\Combat_A_Chords		1803424
+	722874012	Transition_To_Combat_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\DE\{DE0DF9E7-AED4-1713-1594-A245B96DE8ED}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Transition_To_Combat\Transition_To_Combat_2		6259872
+	746181450	PlayerAttack_5	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\04\{044EF556-BC0D-3E48-976F-D1E151C85021}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_5		69884
+	780121973	Footstep_4	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\E4\{E47266E3-4BED-3064-5D73-2A9857540167}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_4		125068
+	782440937	Combat_B_Melody_6	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\A1\{A1035B07-9283-E4B7-7439-B40014701CCD}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_5\Combat_B_Melody_6		2327776
+	810573548	Combat_B_Chords	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\7A\{7A1C035F-C747-9489-6EBD-841C489B26F5}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_3\Combat_B_Chords		1803424
+	837549831	Footstep_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\73\{739CC34A-5706-51C6-5DBE-C45CFF28ADC6}.wem		\Actor-Mixer Hierarchy\SFX\Player\Footsteps\Footstep_1		125068
+	884020658	EnemyDamage_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\DF\{DFC69764-9D24-0872-78B6-B5574C512CDA}.wem		\Actor-Mixer Hierarchy\SFX\Enemy\Damage\EnemyDamage_2		147220
+	892352007	Exploration_2_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\95\{956A2A74-8A6A-3612-2910-73BCEAE9E4C5}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_2\Exploration_2_1		9930848
+	901437010	Fourth layer	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\A4\{A408B2B6-D49E-4B7A-4BA8-271A936389AE}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration_Mountain\Exploration_Mountain\Fourth layer		6800156
+	915479968	Combat_B_Melody_1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\D7\{D73D334D-CC90-FCAC-9CA3-7717FE28D747}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_1\Combat_B_Melody_1		2065568
+	916044459	Sprint _8	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\2A\{2A842B58-0A19-B808-BE16-EC56CF2CAB5E}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _8		83784
+	935154772	Combat_A_Melody_5_2	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\9F\{9F16E1B1-E025-DA1C-6C0C-C85D463C232D}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_A_Melody_4\Combat_A_Melody_5_2		2065568
+	937744509	Combat_B_Melody_5	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\EB\{EB653526-A8DB-B84D-3222-43007C1FD678}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_B_Melody_4\Combat_B_Melody_5		2065632
+	937980104	Exploration_2_Bass	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\6D\{6DD0F260-DA09-673D-B1D3-E2C413D714CD}.wem		\Interactive Music Hierarchy\Music_System\Musics\Exploration\Exploration_2\Exploration_2_Bass		9930848
+	947787764	Combat_Ending	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\71\{71BEFE57-CE47-744F-EB08-BC6B726B4F01}.wem		\Interactive Music Hierarchy\Music_System\Musics\Combat\Combat_Ending\Combat_Ending		2327776
+	989715700	EnemyDamage_3	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\0D\{0DF64BA2-E71B-B53E-F4E8-963E716DCAEE}.wem		\Actor-Mixer Hierarchy\SFX\Enemy\Damage\EnemyDamage_3		147220
+	1015764060	Sprint _1	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\60\{60411C9C-50DA-A138-7CB9-2F5ACD6D6E79}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _1		96140
+	1018695729	Sprint _7	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\34\{3420BB94-E086-3446-9BDD-E00A52A5CE21}.wem		\Actor-Mixer Hierarchy\SFX\Player\Sprinting\Sprint _7		86296
+	1038911950	PlayerAttack_4	Y:\Documents_disk\Unity_Project\EP-491\TheSpirit\TheSpirit_WwiseProject\.cache\36\{365D7507-E5C1-D3FA-2FA1-C996261E6F58}.wem		\Actor-Mixer Hierarchy\SFX\Player\Punch\PlayerAttack_4		64760
 

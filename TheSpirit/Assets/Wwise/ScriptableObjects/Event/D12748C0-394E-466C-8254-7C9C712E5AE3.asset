@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Play_FS
   id: 2262856515
   guid: D12748C0-394E-466C-8254-7C9C712E5AE3
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
