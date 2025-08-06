@@ -14,6 +14,7 @@
 								<Property Name="ActionType" Type="int16" Value="3"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
@@ -146,6 +147,7 @@
 						<Action Name="" ID="{39A40AF0-A335-43F2-8F30-5A289C9FF7A7}" ShortID="904099702">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -267,16 +269,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{FA0CB33F-8870-4204-9301-5A7516A64CB5}" ShortID="433807428">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

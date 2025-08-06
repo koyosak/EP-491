@@ -10,7 +10,6 @@
 				<GameParameter Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1"/>
-						<Property Name="Max" Type="Real64" Value="4"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>

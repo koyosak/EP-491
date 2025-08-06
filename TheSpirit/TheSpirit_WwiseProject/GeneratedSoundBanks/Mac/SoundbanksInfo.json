@@ -216,7 +216,7 @@
     "Type": "User",
     "GUID": "{4476DF8D-16C7-4CC2-94F7-74862DF47477}",
     "Language": "SFX",
-    "Hash": "{AAE95C16-F3D6-AAB6-B291-AD200DDE5EA1}",
+    "Hash": "{B138FDD5-798A-466A-A568-BCAF432E2879}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -862,15 +862,6 @@
         "ObjectPath": "\\States\\Music\\Music_State\\Exploration_Mountain",
         "GUID": "{56BBC816-FF36-49EA-95D0-D74AAFB16240}"
        }
-      ],
-      "ActionSetSwitch": [
-       {
-        "GroupId": "4048371810",
-        "Id": "579523862",
-        "Name": "Explore",
-        "ObjectPath": "\\Switches\\Music\\Gameplay_Swtich\\Explore",
-        "GUID": "{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"
-       }
       ]
      },
      {
@@ -1178,8 +1169,8 @@
             "SwitchValue": {
              "GroupType": "Switch",
              "GroupId": "4048371810",
-             "Id": "579523862",
-             "GUID": "{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"
+             "Id": "0",
+             "GUID": "{076851C3-FA76-44FF-BE9C-EDADA3C3D7A6}"
             },
             "MediaRefs": [
              {
@@ -1475,8 +1466,8 @@
             "SwitchValue": {
              "GroupType": "Switch",
              "GroupId": "4048371810",
-             "Id": "579523862",
-             "GUID": "{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}"
+             "Id": "0",
+             "GUID": "{076851C3-FA76-44FF-BE9C-EDADA3C3D7A6}"
             },
             "MediaRefs": [
              {
@@ -1866,6 +1857,6 @@
     ]
    }
   ],
-  "FileHash": "{E773D373-8553-3DC7-C481-4FEA4B3F47E3}"
+  "FileHash": "{6319BBC2-E737-AD47-5258-C4CF0E522336}"
  }
 }

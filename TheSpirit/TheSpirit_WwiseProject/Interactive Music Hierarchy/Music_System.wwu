@@ -406,8 +406,8 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{A39825EA-F52D-4978-ABF8-B3B303C6AF2A}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="1.5"/>
-															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeOffset" Type="Real64" Value="2"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -415,7 +415,6 @@
 												<DestinationFadeIn>
 													<MusicFade Name="Destination Fade-in" ID="{98A7FA40-B974-4167-A58F-3621CDB92172}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="-0.75"/>
 															<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 														</PropertyList>
 													</MusicFade>
@@ -4618,18 +4617,18 @@
 																						<SegmentShape>Exp2</SegmentShape>
 																					</Point>
 																					<Point>
-																						<XPos>1.03619</XPos>
+																						<XPos>25.90475</XPos>
 																						<YPos>-200</YPos>
 																						<Flags>0</Flags>
 																						<SegmentShape>Exp2</SegmentShape>
 																					</Point>
 																					<Point>
-																						<XPos>2</XPos>
+																						<XPos>67.62295</XPos>
 																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>4</XPos>
+																						<XPos>100</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -4720,18 +4719,18 @@
 																						<SegmentShape>Exp2</SegmentShape>
 																					</Point>
 																					<Point>
-																						<XPos>2.05184</XPos>
+																						<XPos>51.296</XPos>
 																						<YPos>-37.02517</YPos>
 																						<Flags>0</Flags>
 																						<SegmentShape>Exp2</SegmentShape>
 																					</Point>
 																					<Point>
-																						<XPos>3</XPos>
-																						<YPos>0</YPos>
+																						<XPos>99.999</XPos>
+																						<YPos>-0.13572</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>4</XPos>
+																						<XPos>100</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -4821,18 +4820,18 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>0.001</XPos>
+																						<XPos>0.025</XPos>
 																						<YPos>-200</YPos>
 																						<Flags>0</Flags>
 																						<SegmentShape>Exp2</SegmentShape>
 																					</Point>
 																					<Point>
-																						<XPos>1</XPos>
-																						<YPos>0.14484</YPos>
+																						<XPos>34.63115</XPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>4</XPos>
+																						<XPos>100</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -4876,7 +4875,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{095EF417-02C7-46F1-9D4A-6A949B23B706}"/>
+													<MusicCue Name="Entry Cue" ID="{095EF417-02C7-46F1-9D4A-6A949B23B706}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2526.31578947368"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -4884,7 +4887,7 @@
 													<MusicCue Name="Exit Cue" ID="{328565D2-9200-488D-8BE0-53C0AE690B58}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="35417.7708333333"/>
+															<Property Name="TimeMs" Type="Real64" Value="37894.7368421053"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -5006,7 +5009,7 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<MultiSwitchEntry Name="" ID="{49C2DF43-6B2C-4459-A518-0EF4EE86D7F2}">
+									<MultiSwitchEntry Name="" ID="{3054D589-7619-4421-8440-A1A3D7C6A2A1}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
 												<ObjectRef Name="Exploration_Mountain" ID="{F124D9AC-31DF-45B3-9B1B-63FFEF5039DF}" WorkUnitID="{0033847E-42BE-47F8-A5E2-86A69E628089}"/>
@@ -5021,7 +5024,7 @@
 													<ObjectRef Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}" WorkUnitID="{83064B71-F431-4A63-8817-2C7D2F6E512B}"/>
 												</Reference>
 												<Reference>
-													<ObjectRef Name="Explore" ID="{DDD102C3-0CCD-4A68-AC65-D09B16ED68E1}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+													<ObjectRef Name="Gameplay_Swtich" ID="{076851C3-FA76-44FF-BE9C-EDADA3C3D7A6}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>

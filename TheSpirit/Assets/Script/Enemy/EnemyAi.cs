@@ -59,25 +59,24 @@ public class EnemyAi : MonoBehaviour
     }
     private void SearchWalkPoint()
 {
-    int maxAttempts = 10;
-
-    for (int i = 0; i < maxAttempts; i++)
+    for (int i = 0; i < 10; i++)
     {
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
-        Vector3 potentialPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        Vector3 randomPoint = transform.position + new Vector3(randomX, 0, randomZ);
 
-        if (Physics.Raycast(potentialPoint + Vector3.up * 2f, Vector3.down, out RaycastHit hit, 5f, whatIsGround))
+        if (NavMesh.SamplePosition(randomPoint, out NavMeshHit navHit, 2f, NavMesh.AllAreas))
         {
-            walkPoint = hit.point;
+            walkPoint = navHit.position;
             walkPointSet = true;
             return;
         }
     }
 
-    walkPointSet = false; // fallback if all attempts fail
+    walkPointSet = false; // fallback if no valid point found
 }
+
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);

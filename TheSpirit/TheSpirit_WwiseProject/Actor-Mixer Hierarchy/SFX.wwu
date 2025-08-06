@@ -959,6 +959,113 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Mountain_Music" ID="{819B1771-4296-40DB-9AF9-2A49CD7DD58E}" ShortID="334439075">
+					<ChildrenList>
+						<BlendContainer Name="Exploration_Mountain" ID="{14888DC0-E0DC-4D8D-ACC8-ED989449A80B}" ShortID="693501450">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="mx_exploration_layer1_95bpm_4-4" ID="{AE0DFBA2-591A-425A-9B1D-63ABF8678FA0}" ShortID="1043083290">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mx_exploration_layer1_95bpm_4-4" ID="{02DACFDE-495F-44B6-8C08-C66715DC0085}">
+											<Language>SFX</Language>
+											<AudioFile>mx_exploration_layer1_95bpm_4-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737571750"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mx_exploration_layer1_95bpm_4-4" ID="{02DACFDE-495F-44B6-8C08-C66715DC0085}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mx_exploration_layer3_95bpm_4-4" ID="{CA5C7BD1-E46A-494B-ABDA-448C2615C3DD}" ShortID="195538362">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mx_exploration_layer3_95bpm_4-4" ID="{60BEB842-B154-45FB-99AE-5ED1E47DCCF6}">
+											<Language>SFX</Language>
+											<AudioFile>mx_exploration_layer3_95bpm_4-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="926372600"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mx_exploration_layer3_95bpm_4-4" ID="{60BEB842-B154-45FB-99AE-5ED1E47DCCF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mx_exploration_layer2_95bpm_4-4" ID="{4D383ED6-517E-4542-9E52-AA894C08CA73}" ShortID="574271015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mx_exploration_layer2_95bpm_4-4" ID="{1CBA61A5-8BD3-48D2-84B4-84F255F42901}">
+											<Language>SFX</Language>
+											<AudioFile>mx_exploration_layer2_95bpm_4-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="499973557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mx_exploration_layer2_95bpm_4-4" ID="{1CBA61A5-8BD3-48D2-84B4-84F255F42901}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mx_exploration_layer4_95bpm_4-4" ID="{B0CDA888-78BD-4045-93AA-EFA8DC231A0D}" ShortID="74889094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A49125D-0C59-424D-89DA-F21F3AFFDF66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{365066CA-B63D-4133-BBAD-3C167D3D7CAF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mx_exploration_layer4_95bpm_4-4" ID="{465C8382-1073-415F-82EF-091607A745D6}">
+											<Language>SFX</Language>
+											<AudioFile>mx_exploration_layer4_95bpm_4-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227201887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mx_exploration_layer4_95bpm_4-4" ID="{465C8382-1073-415F-82EF-091607A745D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
