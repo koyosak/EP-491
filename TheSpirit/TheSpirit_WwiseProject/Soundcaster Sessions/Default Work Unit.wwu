@@ -33,7 +33,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}"/>
-							<Value>5.76910573335907E-318</Value>
+							<Value>132</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}"/>
@@ -124,7 +124,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}"/>
-							<Value>5.76910573335907E-318</Value>
+							<Value>132</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}"/>

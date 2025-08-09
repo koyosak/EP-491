@@ -9,10 +9,12 @@
 			<ChildrenList>
 				<GameParameter Name="Layers" ID="{9E989046-FEA1-43C0-AB59-08737BA83120}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="30"/>
+						<Property Name="Max" Type="Real64" Value="132"/>
+						<Property Name="Min" Type="Real64" Value="30"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="89.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="93"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Drone_Amb" ID="{538E4E59-ACCB-47EB-A794-D05A9E64EAA4}">

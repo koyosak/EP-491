@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{18C81E81-8360-FD8B-1C3E-A6F98F9E6E1C}",
+    "Hash": "{092AAC22-1CCA-960E-CACA-2C043A35F896}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -216,7 +216,7 @@
     "Type": "User",
     "GUID": "{4476DF8D-16C7-4CC2-94F7-74862DF47477}",
     "Language": "SFX",
-    "Hash": "{B138FDD5-798A-466A-A568-BCAF432E2879}",
+    "Hash": "{201A8AED-5C97-2C59-CF49-DF607D4CBA24}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -1511,9 +1511,7 @@
       "Name": "Play",
       "ObjectPath": "\\Events\\Layer\\Play",
       "GUID": "{2283F7F2-5998-46D1-A1C1-E16DA0CCAB9F}",
-      "DurationType": "OneShot",
-      "DurationMin": "41.65333",
-      "DurationMax": "41.65333",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "120494568"
@@ -1857,6 +1855,6 @@
     ]
    }
   ],
-  "FileHash": "{9715C954-78AB-A788-CCBE-A354B279A832}"
+  "FileHash": "{44BD7EA6-36A4-6A40-5A02-5B23091616E3}"
  }
 }

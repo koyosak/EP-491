@@ -51,10 +51,10 @@ public class MountainMusicTrigger : MonoBehaviour
         if (playerInside && playerTransform != null)
         {
             float altitude = playerTransform.position.y;
-            float normalized = Mathf.InverseLerp(minAltitude, maxAltitude, altitude);
-            float rtpcValue = normalized * 100f;
+            // float normalized = Mathf.InverseLerp(minAltitude, maxAltitude, altitude);
+            // float rtpcValue = normalized * 100f;
 
-            AkSoundEngine.SetRTPCValue(rtpcName, rtpcValue);
+            AkSoundEngine.SetRTPCValue(rtpcName, altitude);
         }
     }
 }

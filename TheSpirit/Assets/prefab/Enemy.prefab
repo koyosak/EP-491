@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8171036824826126916}
   - component: {fileID: 8271251822850520565}
   - component: {fileID: -3396520281872023349}
+  - component: {fileID: -7726052185947767897}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -118,7 +119,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7290939773417406359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46de53863661b4d7fbcd7777e46c7d03, type: 3}
   m_Name: 
@@ -134,7 +135,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7290939773417406359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 490a4ecd0e6c14199bd28cc859682f61, type: 3}
   m_Name: 
@@ -4972,3 +4973,29 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-7726052185947767897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290939773417406359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d707da9541e4431987e7c5e86348dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 0
+  forwardSpeed: 2
+  obstacleRange: 10
+  timeBetweenAttacks: 0
+  projectile: {fileID: 8653524260255783857, guid: 770cd4fcf5d22410a979a6a605e6d082, type: 3}
+  sightRange: 0
+  attackRange: 0
+  playerInSightRange: 0
+  playerInAttackRange: 0

@@ -6,24 +6,24 @@ using UnityEngine.AI;
 public class EnemyAi : MonoBehaviour
 {
     public NavMeshAgent agent;
-
     public Transform player;
 
-    public LayerMask whatIsGround, whatIsPlayer;
-
+    public LayerMask whatIsPlayer;
     public float health;
 
-    //Patroling
-    public Vector3 walkPoint;
-    bool walkPointSet;
-    public float walkPointRange;
 
-    //Attacking
+    [Header("Patrolling Settings")]
+    [SerializeField] private float forwardSpeed = 2.0f;
+    [SerializeField] private float obstacleRange = 10.0f;
+    private float patrolTurnCooldown = 2f;
+    private float lastTurnTime = 0f;
+
+    // Attacking
     public float timeBetweenAttacks;
-    bool alreadyAttacked;
+    private bool alreadyAttacked;
     public GameObject projectile;
 
-    //States
+    // States
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
@@ -35,7 +35,7 @@ public class EnemyAi : MonoBehaviour
 
     private void Update()
     {
-        //Check for sight and attack range
+        // Check for player proximity
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
@@ -46,61 +46,58 @@ public class EnemyAi : MonoBehaviour
 
     private void Patroling()
     {
-        if (!walkPointSet) SearchWalkPoint();
+        // Stop NavMeshAgent movement to avoid conflict with manual movement
+        if (agent.enabled)
+            agent.ResetPath();
 
-        if (walkPointSet)
-            agent.SetDestination(walkPoint);
+        // Move forward
+        transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
 
-        Vector3 distanceToWalkPoint = transform.position - walkPoint;
-
-        //Walkpoint reached
-        if (distanceToWalkPoint.magnitude < 1f)
-            walkPointSet = false;
-    }
-    private void SearchWalkPoint()
-{
-    for (int i = 0; i < 10; i++)
-    {
-        float randomZ = Random.Range(-walkPointRange, walkPointRange);
-        float randomX = Random.Range(-walkPointRange, walkPointRange);
-
-        Vector3 randomPoint = transform.position + new Vector3(randomX, 0, randomZ);
-
-        if (NavMesh.SamplePosition(randomPoint, out NavMeshHit navHit, 2f, NavMesh.AllAreas))
+        // Detect obstacles with SphereCast
+        Ray ray = new Ray(transform.position, transform.forward);
+        if (Physics.SphereCast(ray, 0.75f, out RaycastHit hit, obstacleRange))
         {
-            walkPoint = navHit.position;
-            walkPointSet = true;
-            return;
+            // Only react to non-player obstacles
+            if (hit.collider.gameObject != player.gameObject)
+            {
+                if (Time.time - lastTurnTime > patrolTurnCooldown)
+                {
+                    float turnAngle = Random.Range(-110f, 110f);
+                    transform.Rotate(0, turnAngle, 0);
+                    lastTurnTime = Time.time;
+                }
+            }
         }
     }
 
-    walkPointSet = false; // fallback if no valid point found
-}
-
     private void ChasePlayer()
     {
+        if (!agent.enabled)
+            return;
+
         agent.SetDestination(player.position);
     }
 
     private void AttackPlayer()
     {
-        //Make sure enemy doesn't move
-        agent.SetDestination(transform.position);
+        if (!agent.enabled)
+            return;
 
+        agent.SetDestination(transform.position);
         transform.LookAt(player);
 
         if (!alreadyAttacked)
         {
-            ///Attack code here
+            // Shoot projectile
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 8f, ForceMode.Impulse);
-            ///End of attack code
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }
+
     private void ResetAttack()
     {
         alreadyAttacked = false;
@@ -112,8 +109,10 @@ public class EnemyAi : MonoBehaviour
 
         if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }
+
     private void DestroyEnemy()
     {
         Destroy(gameObject);
     }
 }
+

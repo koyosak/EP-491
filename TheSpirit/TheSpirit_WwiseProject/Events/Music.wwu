@@ -274,6 +274,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="New_Event" ID="{F8809048-CE84-4F8B-8199-423ABC4DAE92}">
+					<ChildrenList>
+						<Action Name="" ID="{964846EC-EB65-4E39-AF88-188A4E6D66EC}" ShortID="850139041">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}" WorkUnitID="{F339179C-5E81-42B5-BAAD-35A9379AB1EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
