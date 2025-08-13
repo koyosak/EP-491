@@ -43,7 +43,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
 						<CurrentStateRef Name="Alive" ID="{9F128981-DC9C-4163-BA19-8662E8367797}"/>
-						<CurrentStateRef Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}"/>
+						<CurrentStateRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Healthy" ID="{786ECE22-3D76-4202-A845-5A2567ADED18}"/>
@@ -134,11 +134,11 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{BCD2D4B6-8DAB-4992-A41E-D116E66B787E}"/>
 						<CurrentStateRef Name="Alive" ID="{9F128981-DC9C-4163-BA19-8662E8367797}"/>
-						<CurrentStateRef Name="Exploration_Mountain" ID="{56BBC816-FF36-49EA-95D0-D74AAFB16240}"/>
+						<CurrentStateRef Name="Exploration" ID="{B204620D-CD56-4F22-892E-EB7018F9FCC7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Healthy" ID="{786ECE22-3D76-4202-A845-5A2567ADED18}"/>
-						<CurrentSwitchRef Name="Combat" ID="{AC87865C-7732-4389-B9FA-09863AB28F97}"/>
+						<CurrentSwitchRef Name="Safe_Haven" ID="{2E5339A9-CE62-4AF7-84EC-0FDDE2F9A1BD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Exploration" ID="{8C44B597-1587-4290-AF90-11BA19AD7E2A}">
